@@ -1,19 +1,61 @@
 # DNC-BoardTasks-Back
-Projeto em Express.js do BoardTasks Back-End feito para o curso do Rubens Flinco na escola DNC.
 
-----------------------------------------------------------------------------------------------------------
+Projeto desenvolvido com **Express.js** com o aprendizado das aulas na **Escola DNC**.  
+Este repositório representa a **API Back-End** do sistema de gerenciamento de tarefas (BoardTasks), com foco em boas práticas de arquitetura, organização de rotas e uso de variáveis de ambiente.
 
-## Começe por aqui:
-Antes de tudo, você precisa ter certeza de que baixou todas as dependências antes de executar este projeto.
-### Dependências
-- NodeJs
-- NPM
+## Tecnologias Utilizadas
 
-----------------------------------------------------------------------------------------------------------
+- **Node.js**
+- **Express.js**
+- **dotenv**
+- **nodemon** 
+- **cors**
+- **mongoose**
 
-## Executando o projeto:
-1) Primeiro você precisa colocar este repositório em seu computador.
-2) Você precisa copiar o arquivo `EXEMPLO.env` que está na pasta raiz daquele projeto e renomeá-lo para .env para que as variáveis de ambiente sejam definidas.
-3) Depois é só executar o comando ```npm install``` no terminal na pasta raiz do projeto.
-4) Em seguida, você pode executar o comando ```npm run dev``` no terminal na pasta raiz do projeto, para iniciar o servidor back-end.
-5) Depois entre na documentação da API é só acessar em seu navegador o endereço ```http://localhost:4000/```
+## Pré-requisitos
+
+Antes de executar o projeto, garanta que você tenha instalado:
+- [Node.js](https://nodejs.org/)  
+- [NPM](https://www.npmjs.com/) (ou [Yarn](https://yarnpkg.com/) se preferir)
+
+## Como rodar o projeto localmente
+1. **Clone este repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/DNC-BoardTasks-Back.git
+   cd DNC-BoardTasks-Back
+   ```
+
+2. **Configure as variáveis de ambiente**:
+   
+   Copie o arquivo `.EXEMPLO.env`:
+   
+     ```bash
+     cp .EXEMPLO.env .env
+     ```
+   Preencha as variáveis com os valores corretos (como `PORT`, `DB_URI`, etc).
+
+4. **Instale as dependências**:
+   ```bash
+   npm install
+   ```
+
+5. **Inicie o servidor em modo desenvolvimento**:
+   ```bash
+   npm run dev
+   ```
+
+6. Pronto! A API estará disponível em:
+   ```
+   http://localhost:4000
+   ```
+
+## Documentação da API
+
+A documentação da API pode ser acessada via navegador após iniciar o servidor:
+
+[http://localhost:4000](http://localhost:4000)
+
+## Créditos
+
+Projeto desenvolvido durante o curso da **Escola DNC**, sob orientação de **Rubens Flinco**.  
+Código com fins educacionais e práticos, voltado ao aprendizado de arquitetura e desenvolvimento back-end com Node.js.
